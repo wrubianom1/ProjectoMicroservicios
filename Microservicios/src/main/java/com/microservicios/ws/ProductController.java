@@ -13,7 +13,7 @@ import com.microservicios.servicios.ProductService;
 
 @RestController
 @RequestMapping(value = "/rest")
-@CrossOrigin
+@CrossOrigin // Esta anotacion sirve para consumir servicios y omitir la seguridad temporalmente
 public class ProductController {
 
 	private ProductService productService;
